@@ -10,7 +10,7 @@
 
 The alignment field will eventually test whether diverse moral signal improves AI behavior. If that test takes the form of post-hoc fine-tuning on a model whose representational geometry already encodes WEIRD (Western, Educated, Industrialized, Rich, Democratic) moral defaults, the results will be modest, not because the signal is wrong but because the model can no longer learn from it. A published null result will close the door on the correct approach, because no funding body revisits a question that already has a published answer. This paper argues that diverse moral signal must enter the training pipeline during initial alignment, before defaults shape representational geometry, and that the strategic risk is not failure but a false negative that forecloses the right experiment. A companion paper specifies the full technical architecture: a classification function that categorizes moral domains as candidate universal, contingent agreement, or cultural contingency, feeding upstream into the training pipeline as a quality filter and variance-weighted reward signal.[1]
 
-[1] "Beyond WEIRD Defaults: Diverse Moral Signal Must Enter AI Training Before It's Too Late." Available at github.com/declanmichaels/ccas-project.
+[1] "Beyond WEIRD Defaults: Diverse Moral Signal Must Enter AI Training Before It's Too Late." Available at [github.com/DeclanMichaels/-The-CCAS-Project-/blob/main/BeyondWEIRDdefaults.md](https://github.com/DeclanMichaels/-The-CCAS-Project-/blob/main/BeyondWEIRDdefaults.md).
 
 ---
 
