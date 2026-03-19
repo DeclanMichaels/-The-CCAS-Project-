@@ -6,7 +6,8 @@
 
 ---
 
-**[1] Henrich, J., Heine, S. J., & Norenzayan, A. (2010). The weirdest people in the world? *Behavioral and Brain Sciences*, 33(2-3), 61-83.**
+<a id="henrich-2010"></a>
+**[1] Henrich, J., Heine, S. J., & Norenzayan, A. (2010). The weirdest people in the world? *Behavioral and Brain Sciences*, 33(2-3), 61-83.** [doi.org/10.1017/S0140525X0999152X](https://doi.org/10.1017/S0140525X0999152X)
 
 The paper that coined the WEIRD acronym and demonstrated that behavioral science findings based on Western, Educated, Industrialized, Rich, Democratic populations do not generalize to the majority of humanity. Henrich et al. reviewed studies across visual perception, spatial reasoning, categorization, moral reasoning, and economic decision-making, finding that WEIRD populations are consistent outliers. The paper established that using WEIRD samples as the default and treating non-WEIRD populations as "cultural variations" reverses the actual state of affairs: WEIRD psychology is the unusual case.
 
@@ -14,6 +15,7 @@ The paper that coined the WEIRD acronym and demonstrated that behavioral science
 
 ---
 
+<a id="haidt-2012"></a>
 **[2] Haidt, J. (2012). *The Righteous Mind: Why Good People Are Divided by Politics and Religion.* Vintage Books.**
 
 Haidt's synthesis of Moral Foundations Theory, documenting six foundations underlying moral judgment (care, fairness, loyalty, authority, sanctity, liberty) with systematic cross-cultural variation in how these foundations are weighted. WEIRD populations over-weight care and fairness; non-WEIRD populations draw more evenly on all six. The sanctity/degradation foundation shows the maximum cross-cultural divergence, which is why this experiment's Scenario 1 (moral domain boundary) targets the purity dimension where WEIRD and South Asian frameworks diverge most sharply.
@@ -22,7 +24,8 @@ Haidt's synthesis of Moral Foundations Theory, documenting six foundations under
 
 ---
 
-**[3] Graham, J., Haidt, J., Koleva, S., Motyl, M., Iyer, R., Wojcik, S. P., & Ditto, P. H. (2013). Moral foundations theory: The pragmatic validity of moral pluralism. *Advances in Experimental Social Psychology*, 47, 55-130.**
+<a id="graham-2013"></a>
+**[3] Graham, J., Haidt, J., Koleva, S., Motyl, M., Iyer, R., Wojcik, S. P., & Ditto, P. H. (2013). Moral foundations theory: The pragmatic validity of moral pluralism. *Advances in Experimental Social Psychology*, 47, 55-130.** [doi.org/10.1016/B978-0-12-407236-7.00002-4](https://doi.org/10.1016/B978-0-12-407236-7.00002-4)
 
 The comprehensive empirical validation of MFT, including extensive cross-national MFQ data showing which foundations vary most across cultures. Care/harm shows the most cross-cultural convergence; sanctity/degradation shows the most divergence. This convergence/divergence structure directly informs the experiment's expected results: Scenario 1 (targeting sanctity-related moral domain boundary) should show larger population divergence than Scenario 2 (targeting moral agent constitution, which maps to the loyalty and authority foundations with more moderate cross-cultural variance).
 
@@ -30,6 +33,7 @@ The comprehensive empirical validation of MFT, including extensive cross-nationa
 
 ---
 
+<a id="shweder-1997"></a>
 **[4] Shweder, R. A., Much, N. C., Mahapatra, M., & Park, L. (1997). The "big three" of morality (autonomy, community, divinity). In A. Brandt & P. Rozin (Eds.), *Morality and Health* (pp. 119-169). Routledge.**
 
 Shweder's foundational cross-cultural moral psychology framework, developed from fieldwork in Orissa, India. The autonomy-community-divinity triad is directly relevant to this experiment because Population B (South Asian immigrants) comes from communities where Shweder's research was conducted. The divinity ethic (purity, sanctity, bodily practice as moral categories) maps to what this experiment tests in Scenario 1: whether Population B treats private behavior that violates purity norms as morally relevant, while Population A does not. Shweder's fieldwork established that Indian moral reasoning extends the moral domain beyond harm and fairness into domains that WEIRD populations treat as matters of personal choice.
@@ -38,7 +42,8 @@ Shweder's foundational cross-cultural moral psychology framework, developed from
 
 ---
 
-**[5] Awad, E., Dsouza, S., Kim, R., Schulz, J., Henrich, J., Shariff, A., Bonnefon, J.-F., & Rahwan, I. (2018). The Moral Machine experiment. *Nature*, 563(7729), 59-64.**
+<a id="awad-2018"></a>
+**[5] Awad, E., Dsouza, S., Kim, R., Schulz, J., Henrich, J., Shariff, A., Bonnefon, J.-F., & Rahwan, I. (2018). The Moral Machine experiment. *Nature*, 563(7729), 59-64.** [doi.org/10.1038/s41586-018-0637-6](https://doi.org/10.1038/s41586-018-0637-6)
 
 The largest cross-cultural moral data collection to date, demonstrating that moral preferences cluster into three major cultural groups with systematically different profiles. The Moral Machine established that cross-cultural moral variation is real, measurable, geographically structured, and large enough to detect with appropriate instruments.
 
@@ -46,7 +51,8 @@ The largest cross-cultural moral data collection to date, demonstrating that mor
 
 ---
 
-**[6] Van der Merwe, S. E., et al. (2019). Making sense of complexity: Using SenseMaker as a research tool. *Systems*, 7(2), 25.**
+<a id="vandermerwe-2019"></a>
+**[6] Van der Merwe, S. E., et al. (2019). Making sense of complexity: Using SenseMaker as a research tool. *Systems*, 7(2), 25.** [doi.org/10.3390/systems7020025](https://doi.org/10.3390/systems7020025)
 
 The primary academic description of SenseMaker methodology: narrative collection, triad-based self-signification, and the dual-signal design that produces both qualitative (narrative) and quantitative (triad coordinates) output. This paper establishes that the triad instrument captures continuous moral weighting rather than discrete choices, and that self-signification (respondents interpreting their own narratives) reduces researcher interpretation bias.
 
@@ -54,7 +60,8 @@ The primary academic description of SenseMaker methodology: narrative collection
 
 ---
 
-**[7] Bartels, S. A., et al. (2018). Making sense of child, early and forced marriage among Syrian refugee girls. *BMJ Global Health*, 3(1), e000509.**
+<a id="bartels-2018"></a>
+**[7] Bartels, S. A., et al. (2018). Making sense of child, early and forced marriage among Syrian refugee girls. *BMJ Global Health*, 3(1), e000509.** [doi.org/10.1136/bmjgh-2017-000509](https://doi.org/10.1136/bmjgh-2017-000509)
 
 SenseMaker field deployment among Syrian refugees in Lebanon: 1,422 narratives from 1,346 participants collected by 12 trained interviewers using iPads. Demonstrated that narrative-based sensemaking with triad self-signification works in challenging field conditions with displaced, multilingual populations.
 
@@ -62,7 +69,8 @@ SenseMaker field deployment among Syrian refugees in Lebanon: 1,422 narratives f
 
 ---
 
-**[8] Bartels, S. A., et al. (2019). SenseMaker as a monitoring and evaluation tool. *Evaluation and Program Planning*, 77, 101715.**
+<a id="bartels-2019"></a>
+**[8] Bartels, S. A., et al. (2019). SenseMaker as a monitoring and evaluation tool. *Evaluation and Program Planning*, 77, 101715.** [doi.org/10.1016/j.evalprogplan.2019.101715](https://doi.org/10.1016/j.evalprogplan.2019.101715)
 
 Follow-on SenseMaker study documenting that triad-based data provides nuanced insights that conventional tools miss, including how experiences differ by participant nationality and program type. Also documented practical challenges: low literacy and limited technology skills required additional facilitator support.
 
@@ -70,7 +78,8 @@ Follow-on SenseMaker study documenting that triad-based data provides nuanced in
 
 ---
 
-**[9] Rubner, Y., Tomasi, C., & Guibas, L. J. (2000). The earth mover's distance as a metric for image retrieval. *International Journal of Computer Vision*, 40(2), 99-121.**
+<a id="rubner-2000"></a>
+**[9] Rubner, Y., Tomasi, C., & Guibas, L. J. (2000). The earth mover's distance as a metric for image retrieval. *International Journal of Computer Vision*, 40(2), 99-121.** [doi.org/10.1023/A:1026543900054](https://doi.org/10.1023/A:1026543900054)
 
 The foundational paper on earth mover's distance, defining it as the minimum cost to transform one distribution into another given a ground distance metric. Originally developed for image retrieval, EMD has become a standard tool for comparing probability distributions in any metric space, including simplices.
 
@@ -78,7 +87,8 @@ The foundational paper on earth mover's distance, defining it as the minimum cos
 
 ---
 
-**[10] Duong, T. (2007). ks: Kernel density estimation and kernel discriminant analysis for multivariate data in R. *Journal of Statistical Software*, 21(7), 1-16.**
+<a id="duong-2007"></a>
+**[10] Duong, T. (2007). ks: Kernel density estimation and kernel discriminant analysis for multivariate data in R. *Journal of Statistical Software*, 21(7), 1-16.** [doi.org/10.18637/jss.v021.i07](https://doi.org/10.18637/jss.v021.i07)
 
 Reference for kernel density estimation on low-dimensional spaces. Relevant to the sample size rationale: the literature on multivariate density estimation suggests that 30-50 points produce stable kernel density estimates in two dimensions (the effective dimensionality of a 2-simplex), supporting the 50-per-group target.
 
@@ -86,7 +96,8 @@ Reference for kernel density estimation on low-dimensional spaces. Relevant to t
 
 ---
 
-**[11] Atari, M., et al. (2023). Morality beyond the WEIRD: How the nomological network of morality varies across cultures. *Journal of Personality and Social Psychology*.**
+<a id="atari-2023"></a>
+**[11] Atari, M., et al. (2023). Morality beyond the WEIRD: How the nomological network of morality varies across cultures. *Journal of Personality and Social Psychology*.** [doi.org/10.1037/pspp0000470](https://doi.org/10.1037/pspp0000470)
 
 Introduces MFQ-2, the updated Moral Foundations Questionnaire with improved cross-cultural applicability and separation of the fairness foundation into equality and proportionality. MFQ-2 data from South Asian populations provides the reference baseline against which this experiment's results can be compared: if the triad instrument detects framework variation consistent with MFQ-2 findings, the instrument is validated against an established measure.
 

@@ -327,72 +327,74 @@ The four structural dimensions described in Section 3 are derived from Haidt's M
 
 ## References
 
-Awad, E., Dsouza, S., Kim, R., et al. (2018). The Moral Machine experiment. *Nature*, 563(7729), 59-64.
+*Each reference links to its [annotated bibliography](./annotated-bibliography-full.md) entry, which explains what the source argues, what this paper draws from it, and known limitations.*
 
-Bai, Y., Kadavath, S., Kundu, S., et al. (2022). Constitutional AI: Harmlessness from AI feedback. *arXiv:2212.08073*.
+[Awad, E., Dsouza, S., Kim, R., Schulz, J., Henrich, J., Shariff, A., et al. (2018)](./annotated-bibliography-full.md#awad-2018). The Moral Machine experiment. *Nature*, 563(7729), 59-64. [doi.org/10.1038/s41586-018-0637-6](https://doi.org/10.1038/s41586-018-0637-6)
 
-Bartels, S. A., Michael, S., Roupetz, S., et al. (2018). Making sense of child, early and forced marriage among Syrian refugee girls. *BMJ Global Health*, 3(1), e000509.
+[Bai, Y., Kadavath, S., Kundu, S., Askell, A., Kernion, J., Jones, A., et al. (2022)](./annotated-bibliography-full.md#bai-2022). Constitutional AI: Harmlessness from AI feedback. [arxiv.org/abs/2212.08073](https://arxiv.org/abs/2212.08073)
 
-Bartels, S. A., Michael, S., Vahedi, L., et al. (2019). SenseMaker as a monitoring and evaluation tool. *Evaluation and Program Planning*, 77, 101715.
+[Bartels, S. A., Michael, S., Roupetz, S., Garbern, S., Kilzar, L., Bergquist, H., et al. (2018)](./annotated-bibliography-full.md#bartels-2018). Making sense of child, early and forced marriage among Syrian refugee girls. *BMJ Global Health*, 3(1), e000509. [doi.org/10.1136/bmjgh-2017-000509](https://doi.org/10.1136/bmjgh-2017-000509)
 
-Basile, V., Cabitza, F., Campagner, A., & Fell, M. (2021). We need to consider disagreement in evaluation. In *Proceedings of the 1st Workshop on Benchmarking: Past, Present and Future*, pp. 15-21. ACL.
+[Bartels, S. A., Michael, S., Vahedi, L., Collier, A., Kelly, J., Davison, C., et al. (2019)](./annotated-bibliography-full.md#bartels-2019). SenseMaker as a monitoring and evaluation tool. *Evaluation and Program Planning*, 77, 101715. [doi.org/10.1016/j.evalprogplan.2019.101715](https://doi.org/10.1016/j.evalprogplan.2019.101715)
 
-Casper, S., Davies, X., Shi, C., et al. (2023). Open problems and fundamental limitations of reinforcement learning from human feedback. *Transactions on Machine Learning Research*. arXiv:2307.15217.
+[Basile, V., Cabitza, F., Campagner, A., & Fell, M. (2021)](./annotated-bibliography-full.md#basile-2021). We need to consider disagreement in evaluation. In *Proceedings of the 1st Workshop on Benchmarking*, pp. 15-21. ACL. [aclanthology.org/2021.bppf-1.3](https://aclanthology.org/2021.bppf-1.3/)
 
-Conitzer, V., Freedman, R., Heitzig, J., et al. (2024). Position: Social choice should guide AI alignment in dealing with diverse human feedback. In *ICML*, PMLR 235.
+[Casper, S., Davies, X., Shi, C., Gilbert, T. K., Scheurer, J., Rando, J., et al. (2023)](./annotated-bibliography-full.md#casper-2023). Open problems and fundamental limitations of reinforcement learning from human feedback. *Transactions on Machine Learning Research*. [arxiv.org/abs/2307.15217](https://arxiv.org/abs/2307.15217)
 
-Curry, O. S., Mullins, D. A., & Whitehouse, H. (2019). Is it good to cooperate? Testing the theory of morality-as-cooperation in 60 societies. *Current Anthropology*, 60(1), 47-69.
+[Conitzer, V., Freedman, R., Heitzig, J., Holliday, W. H., Jacobs, B. M., Lambert, N., et al. (2024)](./annotated-bibliography-full.md#conitzer-2024). Position: Social choice should guide AI alignment in dealing with diverse human feedback. In *ICML*, PMLR 235. [arxiv.org/abs/2404.10271](https://arxiv.org/abs/2404.10271)
 
-Darwall, S. (2006). *The Second-Person Standpoint: Morality, Respect, and Accountability.* Harvard University Press.
+[Curry, O. S., Mullins, D. A., & Whitehouse, H. (2019)](./annotated-bibliography-full.md#curry-2019). Is it good to cooperate? Testing the theory of morality-as-cooperation in 60 societies. *Current Anthropology*, 60(1), 47-69. [doi.org/10.1086/701478](https://doi.org/10.1086/701478)
 
-Dohare, S., Hernandez-Garcia, J. F., Lan, Q., et al. (2024). Loss of plasticity in deep continual learning. *Nature*, 632(8026), 768-774.
+[Darwall, S. (2006)](./annotated-bibliography-full.md#darwall-2006). *The Second-Person Standpoint: Morality, Respect, and Accountability.* Harvard University Press.
 
-Dryzek, J. S., Bachtiger, A., Chambers, S., et al. (2019). The crisis of democracy and the science of deliberation. *Science*, 363(6432), 1144-1146.
+[Dohare, S., Hernandez-Garcia, J. F., Lan, Q., Rahman, P., Mahmood, A. R., & Sutton, R. S. (2024)](./annotated-bibliography-full.md#dohare-2024). Loss of plasticity in deep continual learning. *Nature*, 632(8026), 768-774. [doi.org/10.1038/s41586-024-07711-7](https://doi.org/10.1038/s41586-024-07711-7)
 
-Durmus, E., Nguyen, K., Liao, T. I., et al. (2024). Towards measuring the representation of subjective global opinions in language models. In *COLM 2024*.
+[Dryzek, J. S., Bächtiger, A., Chambers, S., Cohen, J., Druckman, J. N., Felicetti, A., et al. (2019)](./annotated-bibliography-full.md#dryzek-2019). The crisis of democracy and the science of deliberation. *Science*, 363(6432), 1144-1146. [doi.org/10.1126/science.aaw2694](https://doi.org/10.1126/science.aaw2694)
 
-Fornaciari, T., Uma, A., Paun, S., et al. (2021). Beyond black & white: Leveraging annotator disagreement via soft-label multi-task learning. In *NAACL-HLT*, pp. 2591-2597.
+[Durmus, E., Nguyen, K., Liao, T. I., Schiefer, N., Askell, A., Bakhtin, A., et al. (2024)](./annotated-bibliography-full.md#durmus-2024). Towards measuring the representation of subjective global opinions in language models. In *COLM 2024*. [arxiv.org/abs/2306.16388](https://arxiv.org/abs/2306.16388)
 
-Gabriel, I., & Keeling, G. (2025). A matter of principle? AI alignment as the fair treatment of claims. *Philosophical Studies*, 182(7), 1951-1973.
+[Fornaciari, T., Uma, A., Paun, S., Plank, B., Hovy, D., & Poesio, M. (2021)](./annotated-bibliography-full.md#fornaciari-2021). Beyond black & white: Leveraging annotator disagreement via soft-label multi-task learning. In *NAACL-HLT*, pp. 2591-2597. [aclanthology.org/2021.naacl-main.204](https://aclanthology.org/2021.naacl-main.204/)
 
-Gray, K., & Schein, C. (2012). Two minds vs. two philosophies: Mind perception defines morality and dissolves the debate between deontology and utilitarianism. *Review of Philosophy and Psychology*, 3(3), 405-423.
+[Gabriel, I., & Keeling, G. (2025)](./annotated-bibliography-full.md#gabriel-2025). A matter of principle? AI alignment as the fair treatment of claims. *Philosophical Studies*, 182(7), 1951-1973. [doi.org/10.1007/s11098-024-02279-y](https://doi.org/10.1007/s11098-024-02279-y)
 
-Gunasekar, S., Zhang, Y., Anber, J., et al. (2023). Textbooks Are All You Need. *arXiv:2306.11644*.
+[Gray, K., & Schein, C. (2012)](./annotated-bibliography-full.md#gray-2012). Two minds vs. two philosophies: Mind perception defines morality and dissolves the debate between deontology and utilitarianism. *Review of Philosophy and Psychology*, 3(3), 405-423. [doi.org/10.1007/s13164-012-0112-4](https://doi.org/10.1007/s13164-012-0112-4)
 
-Gyekye, K. (2010). African ethics. In E. N. Zalta (Ed.), *Stanford Encyclopedia of Philosophy*.
+[Gunasekar, S., Zhang, Y., Aneja, J., Mendes, C. C. T., Del Giorno, A., Gopi, S., et al. (2023)](./annotated-bibliography-full.md#gunasekar-2023). Textbooks Are All You Need. [arxiv.org/abs/2306.11644](https://arxiv.org/abs/2306.11644)
 
-Haidt, J. (2012). *The Righteous Mind: Why Good People Are Divided by Politics and Religion.* Vintage Books.
+[Gyekye, K. (2010)](./annotated-bibliography-full.md#gyekye-2010). African ethics. In E. N. Zalta (Ed.), *Stanford Encyclopedia of Philosophy*. [plato.stanford.edu/entries/african-ethics](https://plato.stanford.edu/entries/african-ethics/)
 
-Henrich, J. (2020). *The WEIRDest People in the World.* Farrar, Straus and Giroux.
+[Haidt, J. (2012)](./annotated-bibliography-full.md#haidt-2012). *The Righteous Mind: Why Good People Are Divided by Politics and Religion.* Vintage Books.
 
-Huang, S., Siddarth, D., Lovitt, L., et al. (2024). Collective Constitutional AI: Aligning a language model with public input. *FAccT '24*. arXiv:2406.07814.
+[Henrich, J. (2020)](./annotated-bibliography-full.md#henrich-2020). *The WEIRDest People in the World: How the West Became Psychologically Peculiar and Particularly Prosperous.* Farrar, Straus and Giroux.
 
-Hwang, K.-K. (2001). The deep structure of Confucianism: A social psychological approach. *Asian Philosophy*, 11(3), 179-204.
+[Huang, S., Siddarth, D., Lovitt, L., Liao, T. I., Durmus, E., Tamkin, A., et al. (2024)](./annotated-bibliography-full.md#huang-2024). Collective Constitutional AI: Aligning a language model with public input. *FAccT '24*. [arxiv.org/abs/2406.07814](https://arxiv.org/abs/2406.07814)
 
-Lyle, C., Rowland, M., & Dabney, W. (2023). Understanding plasticity in neural networks. In *ICML*.
+[Hwang, K.-K. (2001)](./annotated-bibliography-full.md#hwang-2001). The deep structure of Confucianism: A social psychological approach. *Asian Philosophy*, 11(3), 179-204. [doi.org/10.1080/09552360120116928](https://doi.org/10.1080/09552360120116928)
 
-Lyle, C., Zheng, Z., Nikishin, E., et al. (2024). Disentangling the causes of plasticity loss in neural networks. *arXiv:2402.18762*.
+[Lyle, C., Rowland, M., & Dabney, W. (2023)](./annotated-bibliography-full.md#lyle-2023). Understanding plasticity in neural networks. In *ICML*. [arxiv.org/abs/2303.01486](https://arxiv.org/abs/2303.01486)
 
-Miller, J. G., & Bersoff, D. M. (1992). Culture and moral judgment: How are conflicts between justice and interpersonal responsibilities resolved? *Journal of Personality and Social Psychology*, 62(4), 541-554.
+[Lyle, C., Zheng, Z., Nikishin, E., Schuurmans, D., Pascanu, R., Martens, J., et al. (2024)](./annotated-bibliography-full.md#lyle-2024). Disentangling the causes of plasticity loss in neural networks. [arxiv.org/abs/2402.18762](https://arxiv.org/abs/2402.18762)
 
-Mills, C. W. (1997). *The Racial Contract.* Cornell University Press.
+[Miller, J. G., & Bersoff, D. M. (1992)](./annotated-bibliography-full.md#miller-1992). Culture and moral judgment: How are conflicts between justice and interpersonal responsibilities resolved? *Journal of Personality and Social Psychology*, 62(4), 541-554. [doi.org/10.1037/0022-3514.62.4.541](https://doi.org/10.1037/0022-3514.62.4.541)
 
-Nikishin, E., Schwarzer, M., D'Oro, P., et al. (2022). The primacy bias in deep reinforcement learning. In *ICML*, PMLR 162:16828-16847.
+[Mills, C. W. (1997)](./annotated-bibliography-full.md#mills-1997). *The Racial Contract.* Cornell University Press.
 
-Rawls, J. (1993). *Political Liberalism.* Columbia University Press.
+[Nikishin, E., Schwarzer, M., D'Oro, P., Bacon, P.-L., & Courville, A. (2022)](./annotated-bibliography-full.md#nikishin-2022). The primacy bias in deep reinforcement learning. In *ICML*, PMLR 162:16828-16847. [arxiv.org/abs/2205.07802](https://arxiv.org/abs/2205.07802)
 
-Shweder, R. A., Much, N. C., Mahapatra, M., & Park, L. (1997). The "big three" of morality (autonomy, community, divinity). In A. Brandt & P. Rozin (Eds.), *Morality and Health* (pp. 119-169). Routledge.
+[Rawls, J. (1993)](./annotated-bibliography-full.md#rawls-1993). *Political Liberalism.* Columbia University Press.
 
-Sorensen, T., Moore, J., Fisher, J., et al. (2024). Position: A roadmap to pluralistic alignment. In *ICML*, PMLR 235:46280-46302.
+[Shweder, R. A., Much, N. C., Mahapatra, M., & Park, L. (1997)](./annotated-bibliography-full.md#shweder-1997). The "big three" of morality (autonomy, community, divinity). In A. Brandt & P. Rozin (Eds.), *Morality and Health* (pp. 119-169). Routledge.
 
-Sunstein, C. R. (1996). *Legal Reasoning and Political Conflict.* Oxford University Press.
+[Sorensen, T., Moore, J., Fisher, J., Gordon, M., Mireshghallah, N., Rytting, C. M., et al. (2024)](./annotated-bibliography-full.md#sorensen-2024). Position: A roadmap to pluralistic alignment. In *ICML*, PMLR 235:46280-46302. [arxiv.org/abs/2306.11932](https://arxiv.org/abs/2306.11932)
 
-Tennant, E., Hailes, S., & Musolesi, M. (2024). Hybrid approaches for moral value alignment in AI agents: a manifesto. *arXiv:2312.01818*.
+[Sunstein, C. R. (1996)](./annotated-bibliography-full.md#sunstein-1996). *Legal Reasoning and Political Conflict.* Oxford University Press.
 
-Uma, A., Fornaciari, T., Hovy, D., et al. (2021). Learning from disagreement: A survey. *Journal of Artificial Intelligence Research*, 72, 1385-1470.
+[Tennant, E., Hailes, S., & Musolesi, M. (2024)](./annotated-bibliography-full.md#tennant-2024). Hybrid approaches for moral value alignment in AI agents: a manifesto. [arxiv.org/abs/2312.01818](https://arxiv.org/abs/2312.01818)
 
-Van der Merwe, S. E., Biggs, R., Preiser, R., et al. (2019). Making sense of complexity: Using SenseMaker as a research tool. *Systems*, 7(2), 25.
+[Uma, A. N., Fornaciari, T., Hovy, D., Paun, S., Plank, B., & Poesio, M. (2021)](./annotated-bibliography-full.md#uma-2021). Learning from disagreement: A survey. *Journal of Artificial Intelligence Research*, 72, 1385-1470. [doi.org/10.1613/jair.1.12752](https://doi.org/10.1613/jair.1.12752)
 
-Yan, Y., Lou, X., Li, J., et al. (2024). Reward-robust RLHF in LLMs. *arXiv:2409.15360*.
+[Van der Merwe, S. E., Biggs, R., Preiser, R., Cunningham, C., Snowden, D. J., O'Brien, K., et al. (2019)](./annotated-bibliography-full.md#vandermerwe-2019). Making sense of complexity: Using SenseMaker as a research tool. *Systems*, 7(2), 25. [doi.org/10.3390/systems7020025](https://doi.org/10.3390/systems7020025)
 
-Zhou, C., Liu, P., Xu, P., et al. (2023). LIMA: Less is more for alignment. In *NeurIPS 2023*.
+[Yan, Y., Lou, X., Li, J., Zhang, Y., Xie, J., Yu, C., et al. (2024)](./annotated-bibliography-full.md#yan-2024). Reward-robust RLHF in LLMs. [arxiv.org/abs/2409.15360](https://arxiv.org/abs/2409.15360)
+
+[Zhou, C., Liu, P., Xu, P., Iyer, S., Sun, J., Mao, Y., et al. (2023)](./annotated-bibliography-full.md#zhou-2023). LIMA: Less is more for alignment. In *NeurIPS 2023*. [arxiv.org/abs/2305.11206](https://arxiv.org/abs/2305.11206)

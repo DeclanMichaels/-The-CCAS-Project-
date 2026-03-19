@@ -261,14 +261,26 @@ If the results are positive, they provide the first empirical evidence that the 
 
 ## Key References
 
-- Henrich, J., Heine, S. J., & Norenzayan, A. (2010). The weirdest people in the world? *Behavioral and Brain Sciences*, 33(2-3), 61-83.
-- Haidt, J. (2012). *The Righteous Mind: Why Good People Are Divided by Politics and Religion.* Vintage Books.
-- Graham, J., Haidt, J., Koleva, S., Motyl, M., Iyer, R., Wojcik, S. P., & Ditto, P. H. (2013). Moral foundations theory: The pragmatic validity of moral pluralism. *Advances in Experimental Social Psychology*, 47, 55-130.
-- Shweder, R. A., Much, N. C., Mahapatra, M., & Park, L. (1997). The "big three" of morality (autonomy, community, divinity). In A. Brandt & P. Rozin (Eds.), *Morality and Health* (pp. 119-169). Routledge.
-- Awad, E., et al. (2018). The Moral Machine experiment. *Nature*, 563(7729), 59-64.
-- Van der Merwe, S. E., et al. (2019). Making sense of complexity: Using SenseMaker as a research tool. *Systems*, 7(2), 25.
-- Bartels, S. A., et al. (2018). Making sense of child, early and forced marriage among Syrian refugee girls. *BMJ Global Health*, 3(1), e000509.
-- Bartels, S. A., et al. (2019). SenseMaker as a monitoring and evaluation tool. *Evaluation and Program Planning*, 77, 101715.
-- Rubner, Y., Tomasi, C., & Guibas, L. J. (2000). The earth mover's distance as a metric for image retrieval. *International Journal of Computer Vision*, 40(2), 99-121.
-- Duong, T. (2007). ks: Kernel density estimation and kernel discriminant analysis for multivariate data in R. *Journal of Statistical Software*, 21(7), 1-16.
-- Atari, M., et al. (2023). Morality beyond the WEIRD: How the nomological network of morality varies across cultures. *Journal of Personality and Social Psychology*. (Introduces MFQ-2.)
+*Each reference links to its [annotated bibliography](./pilot-experiment-annotated-bibliography.md) entry.*
+
+[Henrich, J., Heine, S. J., & Norenzayan, A. (2010)](./pilot-experiment-annotated-bibliography.md#henrich-2010). The weirdest people in the world? *Behavioral and Brain Sciences*, 33(2-3), 61-83. [doi.org/10.1017/S0140525X0999152X](https://doi.org/10.1017/S0140525X0999152X)
+
+[Haidt, J. (2012)](./pilot-experiment-annotated-bibliography.md#haidt-2012). *The Righteous Mind: Why Good People Are Divided by Politics and Religion.* Vintage Books.
+
+[Graham, J., Haidt, J., Koleva, S., Motyl, M., Iyer, R., Wojcik, S. P., & Ditto, P. H. (2013)](./pilot-experiment-annotated-bibliography.md#graham-2013). Moral foundations theory: The pragmatic validity of moral pluralism. *Advances in Experimental Social Psychology*, 47, 55-130. [doi.org/10.1016/B978-0-12-407236-7.00002-4](https://doi.org/10.1016/B978-0-12-407236-7.00002-4)
+
+[Shweder, R. A., Much, N. C., Mahapatra, M., & Park, L. (1997)](./pilot-experiment-annotated-bibliography.md#shweder-1997). The "big three" of morality (autonomy, community, divinity). In A. Brandt & P. Rozin (Eds.), *Morality and Health* (pp. 119-169). Routledge.
+
+[Awad, E., Dsouza, S., Kim, R., Schulz, J., Henrich, J., Shariff, A., Bonnefon, J.-F., & Rahwan, I. (2018)](./pilot-experiment-annotated-bibliography.md#awad-2018). The Moral Machine experiment. *Nature*, 563(7729), 59-64. [doi.org/10.1038/s41586-018-0637-6](https://doi.org/10.1038/s41586-018-0637-6)
+
+[Van der Merwe, S. E., Biggs, R., Preiser, R., Cunningham, C., Snowden, D. J., O'Brien, K., et al. (2019)](./pilot-experiment-annotated-bibliography.md#vandermerwe-2019). Making sense of complexity: Using SenseMaker as a research tool. *Systems*, 7(2), 25. [doi.org/10.3390/systems7020025](https://doi.org/10.3390/systems7020025)
+
+[Bartels, S. A., Michael, S., Roupetz, S., Garbern, S., Kilzar, L., Bergquist, H., et al. (2018)](./pilot-experiment-annotated-bibliography.md#bartels-2018). Making sense of child, early and forced marriage among Syrian refugee girls. *BMJ Global Health*, 3(1), e000509. [doi.org/10.1136/bmjgh-2017-000509](https://doi.org/10.1136/bmjgh-2017-000509)
+
+[Bartels, S. A., Michael, S., Vahedi, L., Collier, A., Kelly, J., Davison, C., et al. (2019)](./pilot-experiment-annotated-bibliography.md#bartels-2019). SenseMaker as a monitoring and evaluation tool. *Evaluation and Program Planning*, 77, 101715. [doi.org/10.1016/j.evalprogplan.2019.101715](https://doi.org/10.1016/j.evalprogplan.2019.101715)
+
+[Rubner, Y., Tomasi, C., & Guibas, L. J. (2000)](./pilot-experiment-annotated-bibliography.md#rubner-2000). The earth mover's distance as a metric for image retrieval. *International Journal of Computer Vision*, 40(2), 99-121. [doi.org/10.1023/A:1026543900054](https://doi.org/10.1023/A:1026543900054)
+
+[Duong, T. (2007)](./pilot-experiment-annotated-bibliography.md#duong-2007). ks: Kernel density estimation and kernel discriminant analysis for multivariate data in R. *Journal of Statistical Software*, 21(7), 1-16. [doi.org/10.18637/jss.v021.i07](https://doi.org/10.18637/jss.v021.i07)
+
+[Atari, M., et al. (2023)](./pilot-experiment-annotated-bibliography.md#atari-2023). Morality beyond the WEIRD: How the nomological network of morality varies across cultures. *Journal of Personality and Social Psychology*. [doi.org/10.1037/pspp0000470](https://doi.org/10.1037/pspp0000470)

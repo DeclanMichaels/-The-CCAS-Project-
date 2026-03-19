@@ -528,15 +528,28 @@ Total: approximately 9 weeks, with weeks 1-5 dominated by data construction (our
 
 ## Key References
 
-- Rafailov, R., Sharma, A., Mitchell, E., Ermon, S., Manning, C. D., & Finn, C. (2023). Direct Preference Optimization: Your language model is secretly a reward model. *NeurIPS 2023*. arXiv:2305.18290.
-- Rho, H. G. (2025). Margin Adaptive DPO: Leveraging reward model for granular control in preference optimization. *arXiv:2510.05342*.
-- Pokharel, R., Tao, Y., & Agrawal, A. (2025). CAPO: Confidence Aware Preference Optimization learning for multilingual preferences. *arXiv:2511.07691*.
-- Russo, G., Nozza, D., Rottger, P., & Hovy, D. (2025). The pluralistic moral gap: Understanding judgment and value differences between humans and large language models. *arXiv:2507.17216*.
-- Munker, S. (2025). Cultural bias in large language models: Evaluating AI agents through moral questionnaires. *Proceedings of 0th Symposium on Moral and Legal AI Alignment, IACAP/AISB Conference*. arXiv:2507.10073.
-- Awad, E., et al. (2018). The Moral Machine experiment. *Nature*, 563(7729), 59-64.
-- Graham, J., Haidt, J., Koleva, S., Motyl, M., Iyer, R., Wojcik, S. P., & Ditto, P. H. (2013). Moral foundations theory: The pragmatic validity of moral pluralism. *Advances in Experimental Social Psychology*, 47, 55-130.
-- Atari, M., et al. (2023). Morality beyond the WEIRD: How the nomological network of morality varies across cultures. *Journal of Personality and Social Psychology*. (Introduces MFQ-2.)
-- Inglehart, R., et al. (ongoing). World Values Survey. www.worldvaluessurvey.org.
-- Schulman, J., & Thinking Machines Lab. (2025). LoRA Without Regret. *Thinking Machines Lab: Connectionism*. https://thinkingmachines.ai/blog/lora/.
-- Zheng, L., et al. (2023). Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. *NeurIPS 2023*. arXiv:2306.05685.
-- HuggingFace TRL DPOTrainer documentation. https://huggingface.co/docs/trl/.
+*Each reference links to its [annotated bibliography](./training-experiment-annotated-bibliography.md) entry.*
+
+[Rafailov, R., Sharma, A., Mitchell, E., Ermon, S., Manning, C. D., & Finn, C. (2023)](./training-experiment-annotated-bibliography.md#rafailov-2023). Direct Preference Optimization: Your language model is secretly a reward model. *NeurIPS 2023*. [arxiv.org/abs/2305.18290](https://arxiv.org/abs/2305.18290)
+
+[Rho, H. G. (2025)](./training-experiment-annotated-bibliography.md#rho-2025). Margin Adaptive DPO: Leveraging reward model for granular control in preference optimization. [arxiv.org/abs/2510.05342](https://arxiv.org/abs/2510.05342)
+
+[Pokharel, R., Tao, Y., & Agrawal, A. (2025)](./training-experiment-annotated-bibliography.md#pokharel-2025). CAPO: Confidence Aware Preference Optimization learning for multilingual preferences. [arxiv.org/abs/2511.07691](https://arxiv.org/abs/2511.07691)
+
+[Russo, G., Nozza, D., Rottger, P., & Hovy, D. (2025)](./training-experiment-annotated-bibliography.md#russo-2025). The pluralistic moral gap: Understanding judgment and value differences between humans and large language models. [arxiv.org/abs/2507.17216](https://arxiv.org/abs/2507.17216)
+
+[Münker, S. (2025)](./training-experiment-annotated-bibliography.md#munker-2025). Cultural bias in large language models: Evaluating AI agents through moral questionnaires. *Proceedings of 0th Symposium on Moral and Legal AI Alignment, IACAP/AISB Conference*. [arxiv.org/abs/2507.10073](https://arxiv.org/abs/2507.10073)
+
+[Awad, E., Dsouza, S., Kim, R., Schulz, J., Henrich, J., Shariff, A., Bonnefon, J.-F., & Rahwan, I. (2018)](./training-experiment-annotated-bibliography.md#awad-2018). The Moral Machine experiment. *Nature*, 563(7729), 59-64. [doi.org/10.1038/s41586-018-0637-6](https://doi.org/10.1038/s41586-018-0637-6)
+
+[Graham, J., Haidt, J., Koleva, S., Motyl, M., Iyer, R., Wojcik, S. P., & Ditto, P. H. (2013)](./training-experiment-annotated-bibliography.md#graham-2013). Moral foundations theory: The pragmatic validity of moral pluralism. *Advances in Experimental Social Psychology*, 47, 55-130. [doi.org/10.1016/B978-0-12-407236-7.00002-4](https://doi.org/10.1016/B978-0-12-407236-7.00002-4)
+
+[Atari, M., et al. (2023)](./training-experiment-annotated-bibliography.md#atari-2023). Morality beyond the WEIRD: How the nomological network of morality varies across cultures. *Journal of Personality and Social Psychology*. [doi.org/10.1037/pspp0000470](https://doi.org/10.1037/pspp0000470)
+
+[Inglehart, R., et al. (ongoing)](./training-experiment-annotated-bibliography.md#inglehart-ongoing). World Values Survey. [worldvaluessurvey.org](https://www.worldvaluessurvey.org)
+
+[Schulman, J., & Thinking Machines Lab (2025)](./training-experiment-annotated-bibliography.md#schulman-2025). LoRA Without Regret. *Thinking Machines Lab: Connectionism*. [thinkingmachines.ai/blog/lora](https://thinkingmachines.ai/blog/lora/)
+
+[Zheng, L., Chiang, W.-L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., et al. (2023)](./training-experiment-annotated-bibliography.md#zheng-2023). Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. *NeurIPS 2023*. [arxiv.org/abs/2306.05685](https://arxiv.org/abs/2306.05685)
+
+[HuggingFace TRL DPOTrainer documentation](./training-experiment-annotated-bibliography.md#trl-docs). [huggingface.co/docs/trl](https://huggingface.co/docs/trl/)

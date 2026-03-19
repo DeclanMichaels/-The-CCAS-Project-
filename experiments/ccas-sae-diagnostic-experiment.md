@@ -250,14 +250,26 @@ It also connects to the I/O safety argument (Section 7): if you cannot observe w
 
 ## Key References
 
-- Cunningham, H., Ewart, A., Riggs, L., Huben, R., & Sharkey, L. (2023). Sparse autoencoders find highly interpretable features in language models. *arXiv:2309.08600*. ICLR 2024.
-- Templeton, A., et al. (2024). Scaling monosemanticity: Extracting interpretable features from Claude 3 Sonnet. Anthropic.
-- Lieberum, T., et al. (2024). Gemma Scope: Open sparse autoencoders everywhere all at once on Gemma 2. *arXiv:2408.05147*.
-- He, Z., et al. (2024). LlamaScope: Extracting millions of features from Llama-3.1-8B with sparse autoencoders. *arXiv:2410.20526*.
-- Gao, L., et al. (2024). Scaling and evaluating sparse autoencoders. OpenAI.
-- Lindsey, J., et al. (2024). Sparse Crosscoders for cross-layer features and model diffing. Anthropic.
-- Mishra-Sharma, S., et al. (2025). Insights on crosscoder model diffing. Anthropic. And: Minder, J., et al. (2025). Robustly identifying concepts introduced during chat fine-tuning using crosscoders. *arXiv:2504.02922*.
-- Marks, S., & Tegmark, M. (2023). The geometry of truth: Emergent linear structure in large language model representations of true/false datasets. *arXiv:2310.06824*.
-- Shu, D., et al. (2025). A survey on sparse autoencoders: Interpreting the internal mechanisms of large language models. *EMNLP 2025 Findings*. arXiv:2503.05613.
-- Smith, L., et al. (2025). Negative results for SAEs on downstream tasks and deprioritising SAE research (GDM mech interp team progress update 2). AI Alignment Forum.
-- Lyle, C., Dohare, S., & Sutton, R. S. (2024). Loss of plasticity in deep continual learning. *Nature*, 632, 768-774.
+*Each reference links to its [annotated bibliography](./sae-diagnostic-annotated-bibliography.md) entry.*
+
+[Cunningham, H., Ewart, A., Riggs, L., Huben, R., & Sharkey, L. (2023)](./sae-diagnostic-annotated-bibliography.md#cunningham-2023). Sparse autoencoders find highly interpretable features in language models. *arXiv:2309.08600*. ICLR 2024. [arxiv.org/abs/2309.08600](https://arxiv.org/abs/2309.08600)
+
+[Templeton, A., Conmy, A., Marcus, J., Lindsey, J., Bricken, T., & Olah, C. (2024)](./sae-diagnostic-annotated-bibliography.md#templeton-2024). Scaling monosemanticity: Extracting interpretable features from Claude 3 Sonnet. Anthropic. [transformer-circuits.pub/2024/scaling-monosemanticity](https://transformer-circuits.pub/2024/scaling-monosemanticity/)
+
+[Lieberum, T., Rajamanoharan, S., Conmy, A., Smith, L., Sonnerat, N., Varma, V., et al. (2024)](./sae-diagnostic-annotated-bibliography.md#lieberum-2024). Gemma Scope: Open sparse autoencoders everywhere all at once on Gemma 2. [arxiv.org/abs/2408.05147](https://arxiv.org/abs/2408.05147)
+
+[He, Z., et al. (2024)](./sae-diagnostic-annotated-bibliography.md#he-2024). LlamaScope: Extracting millions of features from Llama-3.1-8B with sparse autoencoders. [arxiv.org/abs/2410.20526](https://arxiv.org/abs/2410.20526)
+
+[Gao, L., la Tour, T. D., Tillman, H., Goh, G., Troll, R., Radford, A., Sutskever, I., Leike, J., & Wu, J. (2024)](./sae-diagnostic-annotated-bibliography.md#gao-2024). Scaling and evaluating sparse autoencoders. OpenAI. [arxiv.org/abs/2406.04093](https://arxiv.org/abs/2406.04093)
+
+[Lindsey, J., Templeton, A., Marcus, J., Conerly, T., Batson, J., & Olah, C. (2024)](./sae-diagnostic-annotated-bibliography.md#lindsey-2024). Sparse crosscoders for cross-layer features and model diffing. Anthropic. [transformer-circuits.pub/2024/crosscoders](https://transformer-circuits.pub/2024/crosscoders/)
+
+[Mishra-Sharma, S., Bricken, T., Lindsey, J., Jermyn, A., Marcus, J., Rivoire, K., et al. (2025)](./sae-diagnostic-annotated-bibliography.md#mishra-sharma-2025). Insights on crosscoder model diffing. Anthropic. And: [Minder, J., Dumas, C., Juang, C., Chughtai, B., & Nanda, N. (2025)](./sae-diagnostic-annotated-bibliography.md#minder-2025). Robustly identifying concepts introduced during chat fine-tuning using crosscoders. [arxiv.org/abs/2504.02922](https://arxiv.org/abs/2504.02922)
+
+[Marks, S., & Tegmark, M. (2023)](./sae-diagnostic-annotated-bibliography.md#marks-2023). The geometry of truth: Emergent linear structure in large language model representations of true/false datasets. [arxiv.org/abs/2310.06824](https://arxiv.org/abs/2310.06824)
+
+[Shu, D., Wu, X., Zhao, H., Rai, D., Yao, Z., Liu, N., & Du, M. (2025)](./sae-diagnostic-annotated-bibliography.md#shu-2025). A survey on sparse autoencoders: Interpreting the internal mechanisms of large language models. *EMNLP 2025 Findings*. [arxiv.org/abs/2503.05613](https://arxiv.org/abs/2503.05613)
+
+[Smith, L., Rajamanoharan, S., Conmy, A., McDougall, C., Kramar, J., Lieberum, T., et al. (2025)](./sae-diagnostic-annotated-bibliography.md#smith-2025). Negative results for SAEs on downstream tasks and deprioritising SAE research (GDM mech interp team progress update 2). AI Alignment Forum.
+
+[Lyle, C., Dohare, S., & Sutton, R. S. (2024)](./sae-diagnostic-annotated-bibliography.md#lyle-2024). Loss of plasticity in deep continual learning. *Nature*, 632, 768-774. [doi.org/10.1038/s41586-024-07711-7](https://doi.org/10.1038/s41586-024-07711-7)

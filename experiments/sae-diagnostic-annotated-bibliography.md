@@ -6,7 +6,8 @@
 
 ---
 
-**[1] Cunningham, H., Ewart, A., Riggs, L., Huben, R., & Sharkey, L. (2023). Sparse autoencoders find highly interpretable features in language models. *arXiv:2309.08600*. ICLR 2024.**
+<a id="cunningham-2023"></a>
+**[1] Cunningham, H., Ewart, A., Riggs, L., Huben, R., & Sharkey, L. (2023). Sparse autoencoders find highly interpretable features in language models. *arXiv:2309.08600*. ICLR 2024.** [arxiv.org/abs/2309.08600](https://arxiv.org/abs/2309.08600)
 
 The foundational paper demonstrating that sparse autoencoders can resolve superposition in language models. Cunningham et al. trained SAEs on residual stream activations of Pythia-70M and Pythia-410M and showed that the learned features are more interpretable and more monosemantic than directions identified by alternative methods (PCA, ICA, random directions). Critically, they demonstrated that SAE features can pinpoint the features causally responsible for specific model behaviors (tested on the indirect object identification task) to a finer degree than previous circuit-level decompositions. The paper establishes the core methodology: unsupervised dictionary learning on model activations produces interpretable features that correspond to identifiable concepts.
 
@@ -14,7 +15,8 @@ The foundational paper demonstrating that sparse autoencoders can resolve superp
 
 ---
 
-**[2] Templeton, A., Conmy, A., Marcus, J., Lindsey, J., Bricken, T., & Olah, C. (2024). Scaling monosemanticity: Extracting interpretable features from Claude 3 Sonnet. Anthropic, Transformer Circuits Thread.**
+<a id="templeton-2024"></a>
+**[2] Templeton, A., Conmy, A., Marcus, J., Lindsey, J., Bricken, T., & Olah, C. (2024). Scaling monosemanticity: Extracting interpretable features from Claude 3 Sonnet. Anthropic, Transformer Circuits Thread.** [transformer-circuits.pub/2024/scaling-monosemanticity](https://transformer-circuits.pub/2024/scaling-monosemanticity/)
 
 Anthropic's landmark scaling study, applying SAEs to Claude 3 Sonnet (a production-scale model). Found millions of interpretable features including features corresponding to specific concepts (the Golden Gate Bridge, deception, code errors, abstract reasoning patterns, and safety-relevant behaviors). Demonstrated that SAE-based interpretability scales to frontier models, though with significant computational cost. The paper also demonstrated feature steering: amplifying specific features changes model behavior in predictable ways (the "Golden Gate Claude" demonstration).
 
@@ -22,7 +24,8 @@ Anthropic's landmark scaling study, applying SAEs to Claude 3 Sonnet (a producti
 
 ---
 
-**[3] Lieberum, T., Rajamanoharan, S., Conmy, A., Smith, L., Sonnerat, N., Varma, V., Kramar, J., Dragan, A., Shah, R., & Nanda, N. (2024). Gemma Scope: Open sparse autoencoders everywhere all at once on Gemma 2. *arXiv:2408.05147*.**
+<a id="lieberum-2024"></a>
+**[3] Lieberum, T., Rajamanoharan, S., Conmy, A., Smith, L., Sonnerat, N., Varma, V., et al. (2024). Gemma Scope: Open sparse autoencoders everywhere all at once on Gemma 2. *arXiv:2408.05147*.** [arxiv.org/abs/2408.05147](https://arxiv.org/abs/2408.05147)
 
 Google DeepMind's release of pre-trained SAEs for every layer and sublayer of Gemma 2 models (2B and 9B), with multiple width-to-sparsity tradeoffs. The paper provides a template for systematically training SAEs across an entire model architecture and establishes evaluation metrics (reconstruction fidelity, sparsity, downstream loss, probe loss, and explanation scores). GemmaScope SAEs are openly released, enabling the research community to build on them rather than training from scratch.
 
@@ -30,7 +33,8 @@ Google DeepMind's release of pre-trained SAEs for every layer and sublayer of Ge
 
 ---
 
-**[4] He, Z., et al. (2024). LlamaScope: Extracting millions of features from Llama-3.1-8B with sparse autoencoders. *arXiv:2410.20526*.**
+<a id="he-2024"></a>
+**[4] He, Z., et al. (2024). LlamaScope: Extracting millions of features from Llama-3.1-8B with sparse autoencoders. *arXiv:2410.20526*.** [arxiv.org/abs/2410.20526](https://arxiv.org/abs/2410.20526)
 
 Pre-trained SAEs for Llama 3.1 8B, the base model used in the CCAS training experiment. LlamaScope provides SAE dictionaries across layers that can serve as initialization for our per-checkpoint SAE training (Phase 1). Using LlamaScope initialization rather than training from scratch provides the benefit of a mature dictionary as starting point while allowing adaptation to fine-tuned activation distributions.
 
@@ -38,7 +42,8 @@ Pre-trained SAEs for Llama 3.1 8B, the base model used in the CCAS training expe
 
 ---
 
-**[5] Gao, L., la Tour, T. D., Tillman, H., Goh, G., Troll, R., Radford, A., Sutskever, I., Leike, J., & Wu, J. (2024). Scaling and evaluating sparse autoencoders. OpenAI.**
+<a id="gao-2024"></a>
+**[5] Gao, L., la Tour, T. D., Tillman, H., Goh, G., Troll, R., Radford, A., Sutskever, I., Leike, J., & Wu, J. (2024). Scaling and evaluating sparse autoencoders. OpenAI.** [arxiv.org/abs/2406.04093](https://arxiv.org/abs/2406.04093)
 
 OpenAI's systematic study of SAE scaling laws, training methodology, and evaluation. Introduces TopK SAEs (which use a hard top-k activation function rather than L1 regularization to enforce sparsity) and demonstrates that they improve the reconstruction-sparsity tradeoff compared to earlier methods. Establishes the relationship between SAE width, sparsity level, and downstream loss, showing clean power-law scaling. Provides the training methodology our experiment adopts.
 
@@ -46,7 +51,8 @@ OpenAI's systematic study of SAE scaling laws, training methodology, and evaluat
 
 ---
 
-**[6] Lindsey, J., Templeton, A., Marcus, J., Conerly, T., Batson, J., & Olah, C. (2024). Sparse crosscoders for cross-layer features and model diffing. Anthropic, Transformer Circuits Thread. October 25, 2024.**
+<a id="lindsey-2024"></a>
+**[6] Lindsey, J., Templeton, A., Marcus, J., Conerly, T., Batson, J., & Olah, C. (2024). Sparse crosscoders for cross-layer features and model diffing. Anthropic, Transformer Circuits Thread. October 25, 2024.** [transformer-circuits.pub/2024/crosscoders](https://transformer-circuits.pub/2024/crosscoders/)
 
 Introduces crosscoders, a variant of SAEs that learn a shared dictionary across multiple model variants (or multiple layers of the same model). For model diffing, a crosscoder is trained on concatenated activations from a base model and its fine-tuned derivative, producing three categories of features: shared features (present in both models), base-model-specific features (present only in the base model), and fine-tuned-model-specific features (present only in the fine-tuned model). This directly solves the comparison problem: when you train separate SAEs on different model checkpoints, the dictionaries are different and features cannot be directly compared. A crosscoder produces a single dictionary in which features are automatically categorized by which model(s) they belong to.
 
@@ -56,9 +62,11 @@ Introduces crosscoders, a variant of SAEs that learn a shared dictionary across 
 
 ---
 
-**[7] Mishra-Sharma, S., Bricken, T., Lindsey, J., Jermyn, A., Marcus, J., Rivoire, K., Olah, C., & Henighan, T. (2025). Insights on crosscoder model diffing. Anthropic, Transformer Circuits Thread.**
+<a id="mishra-sharma-2025"></a>
+**[7] Mishra-Sharma, S., Bricken, T., Lindsey, J., Jermyn, A., Marcus, J., Rivoire, K., et al. (2025). Insights on crosscoder model diffing. Anthropic, Transformer Circuits Thread.**
 
-**And: Minder, J., Dumas, C., Juang, C., Chughtai, B., & Nanda, N. (2025). Robustly identifying concepts introduced during chat fine-tuning using crosscoders. *arXiv:2504.02922*.**
+<a id="minder-2025"></a>
+**And: Minder, J., Dumas, C., Juang, C., Chughtai, B., & Nanda, N. (2025). Robustly identifying concepts introduced during chat fine-tuning using crosscoders. *arXiv:2504.02922*.** [arxiv.org/abs/2504.02922](https://arxiv.org/abs/2504.02922)
 
 These two papers (one from Anthropic, one from an independent group replicating and extending the crosscoder work) identify limitations of the crosscoder model diffing approach that are directly relevant to this experiment. Two theoretical issues are documented:
 
@@ -72,7 +80,8 @@ Minder et al. develop a mitigation strategy (Latent Scaling) that detects spurio
 
 ---
 
-**[8] Marks, S., & Tegmark, M. (2023). The geometry of truth: Emergent linear structure in large language model representations of true/false datasets. *arXiv:2310.06824*.**
+<a id="marks-2023"></a>
+**[8] Marks, S., & Tegmark, M. (2023). The geometry of truth: Emergent linear structure in large language model representations of true/false datasets. *arXiv:2310.06824*.** [arxiv.org/abs/2310.06824](https://arxiv.org/abs/2310.06824)
 
 Marks and Tegmark study how LLMs internally represent the truth or falsehood of factual statements. They find clear linear structure in these representations and demonstrate that probes trained on one dataset generalize to different datasets. Critically for our experiment, they establish the methodology of extracting activations at the token position where the model has aggregated its complete understanding of the input (typically the end-of-clause or end-of-instruction token) and demonstrate that this position carries the most information about the model's internal assessment.
 
@@ -80,7 +89,8 @@ Marks and Tegmark study how LLMs internally represent the truth or falsehood of 
 
 ---
 
-**[9] Shu, D., Wu, X., Zhao, H., Rai, D., Yao, Z., Liu, N., & Du, M. (2025). A survey on sparse autoencoders: Interpreting the internal mechanisms of large language models. In *Findings of the Association for Computational Linguistics: EMNLP 2025*, pp. 1690-1712. arXiv:2503.05613.**
+<a id="shu-2025"></a>
+**[9] Shu, D., Wu, X., Zhao, H., Rai, D., Yao, Z., Liu, N., & Du, M. (2025). A survey on sparse autoencoders: Interpreting the internal mechanisms of large language models. In *Findings of the Association for Computational Linguistics: EMNLP 2025*, pp. 1690-1712.** [arxiv.org/abs/2503.05613](https://arxiv.org/abs/2503.05613)
 
 The most comprehensive published survey of SAE methods as of early 2025. Covers SAE architecture variants (vanilla, gated, TopK, JumpReLU), training strategies, feature explanation methods (input-based and output-based), evaluation metrics (structural and functional), and applications to LLM behavior understanding and manipulation. Published at EMNLP 2025 Findings, giving it peer-review validation that most SAE work (published as blog posts or preprints) lacks.
 
@@ -88,7 +98,8 @@ The most comprehensive published survey of SAE methods as of early 2025. Covers 
 
 ---
 
-**[10] Smith, L., Rajamanoharan, S., Conmy, A., McDougall, C., Kramar, J., Lieberum, T., Shah, R., & Nanda, N. (2025). Negative results for SAEs on downstream tasks and deprioritising SAE research (GDM mech interp team progress update 2). AI Alignment Forum / Medium. March 26, 2025.**
+<a id="smith-2025"></a>
+**[10] Smith, L., Rajamanoharan, S., Conmy, A., McDougall, C., Kramar, J., Lieberum, T., et al. (2025). Negative results for SAEs on downstream tasks and deprioritising SAE research (GDM mech interp team progress update 2). AI Alignment Forum / Medium. March 26, 2025.**
 
 The most significant published critique of SAE utility from within the mechanistic interpretability community. The Google DeepMind interpretability team reports that SAE features underperformed simple linear probes on the downstream task of detecting harmful intent in user prompts, including out-of-distribution generalization. Their conclusion: SAEs in their current form are "far from achieving" a canonical decomposition of model concepts, and it is "unclear if such true concepts even exist." The team announced they were deprioritizing fundamental SAE research.
 
@@ -98,7 +109,8 @@ The critique has several specific components relevant to this experiment: (a) SA
 
 ---
 
-**[11] Lyle, C., Dohare, S., & Sutton, R. S. (2024). Loss of plasticity in deep continual learning. *Nature*, 632, 768-774.**
+<a id="lyle-2024"></a>
+**[11] Lyle, C., Dohare, S., & Sutton, R. S. (2024). Loss of plasticity in deep continual learning. *Nature*, 632, 768-774.** [doi.org/10.1038/s41586-024-07711-7](https://doi.org/10.1038/s41586-024-07711-7)
 
 The landmark paper demonstrating that standard deep learning methods gradually lose the ability to learn from new data with extended training, a phenomenon the authors formally name "loss of plasticity." This is distinct from catastrophic forgetting: plasticity loss means the network cannot learn anything new effectively, not that it forgets old knowledge. Published in Nature from Richard Sutton's lab at the University of Alberta.
 
