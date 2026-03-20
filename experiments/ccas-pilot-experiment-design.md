@@ -2,7 +2,7 @@
 
 **Declan Michaels**
 
-*March 15, 2026 (revised March 18, 2026)*
+*March 15, 2026 (revised March 19, 2026)*
 
 ---
 
@@ -16,13 +16,13 @@ This is the foundational empirical question for the entire CCAS architecture. If
 
 ## Design Summary
 
-Two populations, two moral scenarios, 50 usable respondents per population per scenario. Each scenario presents a shared stimulus followed by two sets of constrained allocation sliders (judgment and reasoning). Online recruitment via Prolific. Data collection through a custom web app built with Claude Code. Total budget under $2,000. Timeline: four weeks.
+Three populations, two moral scenarios, 50 usable respondents per main population per scenario plus a 25-respondent religiosity triangulation cell. Each scenario presents a shared stimulus followed by two sets of constrained allocation sliders (judgment and reasoning). Scenario order is counterbalanced across respondents. Online recruitment via Prolific. Data collection through a custom web app built with Claude Code. Total budget under $2,500. Timeline: four weeks.
 
 ---
 
 ## Populations
 
-**Population A (WEIRD baseline).** US-born, college-educated, secular or low-religiosity, white or mixed ethnicity. Prolific's standard demographic filters handle this directly. This population is expected to over-weight care and fairness foundations, constitute the moral agent as an autonomous individual, and restrict the moral domain to harm-based reasoning.
+**Population A (WEIRD baseline).** US-born, college-educated, white or mixed ethnicity. Prolific's standard demographic filters handle this directly. Religiosity is captured in demographics but not filtered: respondents across the religiosity spectrum are included, allowing religiosity to vary naturally for modeling purposes. This population is expected to over-weight care and fairness foundations, constitute the moral agent as an autonomous individual, and restrict the moral domain to harm-based reasoning.
 
 **Population B (framework-divergent).** First-generation South Asian immigrants in the US (Indian, Bangladeshi, Pakistani). Prolific filters for country of birth and ethnicity. This population carries documented differences on moral agent constitution (collectivist orientation), authority legitimacy (hierarchical deference), and moral domain boundary (purity and sanctity as moral categories). Substantial existing MFQ data from India provides a reference baseline for expected divergence.
 
@@ -32,6 +32,8 @@ Two populations, two moral scenarios, 50 usable respondents per population per s
 
 **Why this pairing is methodologically strong.** South Asian diaspora communities in the US are demographically integrated on every variable that normally confounds cross-cultural moral measurement: high education levels, high income, high English proficiency, high digital literacy. On a demographic survey, Populations A and B look similar. But South Asian communities maintain distinct moral frameworks through active cultural infrastructure: temples, language schools, dietary practices rooted in purity norms, arranged marriage traditions, multigenerational household expectations, and elder deference structures. This combination strips the demographic confound from the design. If the instrument detects distributional differences between two populations that are demographically similar but morally distinct, it is measuring moral framework variation, not income, education, or language differences. A population pairing where the framework-divergent group was also demographically different from the baseline would produce an ambiguous result: did the instrument detect moral frameworks or socioeconomic variables? This pairing eliminates that ambiguity and preemptively addresses the strongest methodological objection a reviewer would raise.
 
+**Population C (religiosity triangulation).** US-born, college-educated, white, moderately to highly religious (religiosity score 4-5 on 5-point scale). Target: 25 usable respondents, recruit 30. This small cell resolves an ambiguity that would otherwise weaken a positive result. Population B is expected to be more religious than Population A on average. Without Population C, a positive EMD result could reflect a secular-vs-religious divide rather than a WEIRD-vs-collectivist framework divide. Population C disentangles the two. If religious white Americans distribute similarly to Population B on the moral domain boundary scenario (Scenario 1), religiosity is doing the work and the framework interpretation is weakened. If religious white Americans distribute similarly to the rest of Population A despite higher religiosity, the framework variation operates through cultural infrastructure (temples, dietary practices, family obligation structures) rather than religiosity per se. This triangulation adds approximately $300 to the budget and dramatically strengthens the interpretation of the primary result. Population C is analyzed only on Scenario 1, where the purity/sanctity dimension makes the religiosity confound most acute.
+
 ---
 
 ## Scenarios
@@ -40,7 +42,7 @@ Two scenarios targeting the dimensions with highest expected divergence between 
 
 **Scenario 1: Moral domain boundary.** This is the dimension where WEIRD and South Asian frameworks diverge most sharply. WEIRD populations systematically restrict the moral domain to harm and fairness. South Asian populations extend moral authority to purity, ritual obligation, and bodily practice.
 
-Stimulus: *A man is publicly criticized by his neighbors for how he spends his weekends, though his activities harm no one.*
+Stimulus: *A man is publicly criticized by his neighbors for how he spends his weekends in a way some neighbors find distasteful, though no one is directly affected.*
 
 Judgment sliders (respondent distributes 100 points):
 - The criticism was justified
@@ -60,9 +62,9 @@ Expected result: Population A concentrates weight on "none of their business" (i
 Stimulus: *A young woman turns down a job in another city because her mother is seriously ill.*
 
 Judgment sliders (respondent distributes 100 points):
-- She did what was right
-- She did what was expected
-- She did what kept the peace
+- She was morally right because of her family obligation
+- She was morally right because it was her personal choice
+- This is not a moral situation, just a personal decision
 
 Reasoning sliders (respondent distributes 100 points):
 - Because family obligation comes before personal goals
@@ -70,9 +72,11 @@ Reasoning sliders (respondent distributes 100 points):
 - Because the community would have judged her
 - Other (user-labeled)
 
-Expected result: Population A distributes judgment weight with moral evaluation centered on the individual's choice (was it right for her?). Population B distributes with more weight toward the relational options (expected, peace-keeping), reflecting that the individual's moral agency is constituted through relationships rather than autonomy. The reasoning sliders test whether populations that agree on judgment reach that agreement through the same reasoning.
+Expected result: Population A distributes judgment weight toward "personal choice" and "not a moral situation" (moral evaluation centered on the individual's autonomy, or framing the decision as non-moral entirely). Population B distributes with more weight toward "family obligation" (the relational framing where family duty is the morally salient feature). The three options stay within the moral frame or explicitly name the non-moral frame, avoiding constructs like "expected" or "kept the peace" that carry different connotations across populations (normative conformity in WEIRD contexts versus moral duty in collectivist contexts). The reasoning sliders test whether populations that agree on judgment reach that agreement through the same reasoning.
 
-Each respondent completes both scenarios. Session duration: 15-20 minutes.
+**Design note on Scenario 2 labels:** An earlier version used "did what was right / did what was expected / did what kept the peace." Multi-model review identified that "expected" carries negative connotations (conformity pressure) in WEIRD frameworks and positive connotations (moral duty) in collectivist frameworks. The revised labels keep all options explicitly moralized or explicitly non-moral, so distributional differences reflect framework variation rather than label interpretation.
+
+Each respondent completes both scenarios in counterbalanced order: half see Scenario 1 first, half see Scenario 2 first. Order is randomly assigned at session start and logged. Order effects are tested as a secondary analysis (compare EMD computed from Scenario-1-first respondents vs. Scenario-2-first respondents). After each scenario, a single manipulation check item asks: "How morally relevant is this situation to you?" (5-point Likert scale). This provides an independent signal that the scenario activated moral reasoning and allows correlation with distributional spread. Session duration: 15-20 minutes.
 
 ---
 
@@ -103,7 +107,7 @@ A responsive web app with four screens. Built in React, hosted on Vercel (free t
 **Screen 2: Scenario 1.**
 - Shared stimulus displayed at top of screen
 - Brief instruction: "Read the story above, then distribute 100 points across the interpretations below to show how you see this situation. Giving more points to an option means it fits your view better."
-- Judgment sliders: three labeled options, each with a numeric input or drag slider, constrained to sum to 100
+- Judgment sliders: three labeled options with numeric inputs. Respondents allocate freely (no auto-adjustment of other sliders when one changes). A running total is displayed. On confirmation, if the total does not equal 100, allocations are normalized proportionally and the respondent sees a confirmation screen: "Your allocations have been adjusted proportionally to sum to 100. Does this look right?" with the adjusted values displayed. This avoids both manual-summing frustration and the confound of auto-adjusting algorithms that become part of the instrument.
 - After judgment allocation is confirmed, reasoning sliders appear
 - Brief instruction: "Now distribute 100 points across the reasons below to show why you see it that way."
 - Reasoning sliders: three labeled options plus a user-labeled "other" option, constrained to sum to 100
@@ -113,11 +117,12 @@ A responsive web app with four screens. Built in React, hosted on Vercel (free t
 **Screen 3: Scenario 2.**
 - Same flow as Screen 2, second stimulus and slider sets
 
-**Attention checks.** Two quality checks are embedded in the study: (1) A single attention-check item in the demographics section ("For this question, please select 'Agree'") to catch inattentive respondents. (2) Post-hoc time filter: respondents who complete a scenario (stimulus reading + both slider allocations) in under 45 seconds are flagged for review, as this pace is inconsistent with thoughtful engagement. Flagged respondents are excluded only if their allocations also show minimal engagement (e.g., all weight on a single option for both slider sets). Prolific's built-in quality metrics (approval rate > 95%, previous submissions flagged for quality) provide additional screening.
+**Attention checks.** Three quality checks are embedded in the study: (1) A single attention-check item in the demographics section ("For this question, please select 'Agree'") to catch inattentive respondents. (2) Post-hoc time filter: respondents who complete a scenario faster than the fastest genuine completion observed during internal testing are flagged for review. The threshold is determined empirically during Week 1 testing (5-10 unpaid respondents with screen recording), not set a priori. The app logs individual interaction events (first slider touch, last slider touch, confirm button timestamp) so that "read fast, allocated thoughtfully" can be distinguished from "clicked through without reading." Flagged respondents are excluded only if their allocations also show minimal engagement (e.g., all weight on a single option for both slider sets). (3) Prolific's built-in quality metrics (approval rate > 95%, previous submissions flagged for quality) provide additional screening.
 
 **Screen 4: Debrief.**
 - Thank you message
 - Prolific completion code displayed
+- Semantic probe (2 items): "In your own words, what does 'community standards' mean in the first story?" and "In your own words, what does 'family obligation' mean in the second story?" (free text, 1-2 sentences each). These detect whether key terms carry different meanings across populations. High divergence in probe responses flags semantic interpretation drift as a confound.
 - Optional: "Is there anything about these questions that felt unclear or uncomfortable?" (free text, for instrument improvement)
 
 **Data captured per respondent:**
@@ -133,9 +138,7 @@ A responsive web app with four screens. Built in React, hosted on Vercel (free t
 
 **Study 1 (Population A):**
 - Prescreening: country of birth = United States, ethnicity = white, education = undergraduate degree or higher, fluent in English
-- Custom screener: religiosity question (filter for score 1-3 on 5-point scale, excluding moderately and highly religious respondents)
-
-**Note on the religiosity filter:** Excluding religious white Americans makes Population A maximally WEIRD (secular, educated, individualist), which maximizes expected divergence from Population B on the moral domain boundary dimension. The tradeoff is that a positive result may partly reflect religiosity differences rather than framework differences proper. This is mitigated by capturing religiosity in the demographics and testing whether EMD remains significant after controlling for religiosity scores via partial permutation tests (permuting only within religiosity-matched pairs). If the religiosity-controlled EMD is substantially smaller than the uncontrolled EMD, religiosity is confounded with framework; if it remains similar, the framework divergence is independent of religiosity.
+- No religiosity filter. Religiosity is captured in demographics (5-point scale) and modeled explicitly in analysis rather than filtered out. An earlier version excluded moderately and highly religious respondents to maximize WEIRD contrast. Multi-model review identified that this created an ambiguity: a positive result could reflect a secular-vs-religious divide rather than a framework divide, and the partial permutation test cannot distinguish between "religiosity is a confound" and "religiosity is a component of the framework you just removed." Letting religiosity vary naturally in Population A, combined with Population C (below), resolves this cleanly.
 - Compensation: $8 per respondent
 - Estimated session: 20 minutes
 - Prolific fee: ~33% on top of compensation
@@ -148,7 +151,17 @@ A responsive web app with four screens. Built in React, hosted on Vercel (free t
 - Prolific fee: ~33% on top of compensation
 - Slots: 60
 
-Both studies run simultaneously. Participants cannot take both studies.
+**Study 3 (Population C -- religiosity triangulation):**
+- Prescreening: country of birth = United States, ethnicity = white, education = undergraduate degree or higher, fluent in English
+- Custom screener: religiosity score 4-5 on 5-point scale (moderately to highly religious)
+- Compensation: $8 per respondent
+- Estimated session: 20 minutes
+- Prolific fee: ~33% on top of compensation
+- Slots: 30
+
+All three studies run simultaneously. Participants cannot take more than one study.
+
+**Pre-launch decision rule for Population B pool.** Run the Prolific audience estimator for all three prescreens before building the app. If Population B eligible pool is under 50, switch the entire Population B to UK-resident South Asians rather than mixing US and UK residents. A mixed-residence population adds a confound without adding power. Document the decision and rationale.
 
 **Recruitment risk for Population B.** Prolific's participant pool skews UK-heavy for South Asian users. The intersection of "born in India/Bangladesh/Pakistan" AND "currently residing in United States" AND "fluent in English" may produce a smaller available pool than 60 requires. Check Prolific's pool estimator before launch. If the US-resident pool is insufficient, the fallback is to extend recruitment to UK-resident South Asians, with the tradeoff being a different host-country institutional context (NHS vs. US healthcare, different immigration dynamics). This is methodologically acceptable because the framework differences being tested (collectivist moral agent constitution, purity-based moral domain extension) are maintained by cultural infrastructure (temples, dietary practices, family structures) that operate similarly in both UK and US diaspora contexts. Document which host country each respondent resides in and test whether host country moderates the EMD result.
 
@@ -160,7 +173,9 @@ Both studies run simultaneously. Participants cannot take both studies.
 
 Compute earth mover's distance (EMD) between Population A and Population B slider distributions for each scenario separately, for both judgment and reasoning sliders. Each respondent's slider allocation is a point on a simplex (three or four values summing to 1, after normalizing from the 100-point allocation). EMD measures the minimum work required to transform one population's distribution into the other, using a uniform ground metric (all simplex vertices equidistant). The uniform metric is the appropriate default when no principled basis exists for assigning semantic distances between moral interpretations (Rubner et al., 2000).
 
-Four EMD scores are computed: Scenario 1 judgment, Scenario 1 reasoning, Scenario 2 judgment, Scenario 2 reasoning.
+Four EMD scores are computed: Scenario 1 judgment, Scenario 1 reasoning, Scenario 2 judgment, Scenario 2 reasoning. Implementation: 1-Wasserstein distance on the simplex using the Python POT (Python Optimal Transport) library, `ot.emd2` function with uniform ground distance matrix. Code and exact function calls will be pre-registered on OSF before recruitment begins.
+
+**Ground metric sensitivity analysis.** The uniform metric treats all simplex vertices as equidistant. This is the appropriate default when no principled basis exists for assigning semantic distances between moral interpretations, but the moral categories may not be truly equidistant (e.g., "justified" vs. "depends on community values" may be closer than either is to "none of their business"). As a robustness check, recompute EMD under a simple ordinal metric where adjacent categories (on a defensible ordering) have distance 1 and non-adjacent have distance 2. If results are stable across both metrics, the finding is robust to metric choice. If not, the ground metric is doing meaningful work and needs principled justification.
 
 **Significance testing:** Permutation test with 10,000 iterations per EMD score. For each iteration, randomly reassign population labels to all respondents and recompute EMD. The p-value is the proportion of permuted EMDs that equal or exceed the observed EMD. Reject the null hypothesis (no distributional difference) if p < 0.05.
 
@@ -175,6 +190,12 @@ Four EMD scores are computed: Scenario 1 judgment, Scenario 1 reasoning, Scenari
 **Extreme-allocation diagnostic.** Compute the proportion of each population placing 90+ points on a single judgment option. Heavy extreme-allocation in both populations suggests the judgment options produce forced-choice-like behavior despite the constrained allocation format. This would undermine the distributional resolution the instrument is designed to provide and would indicate that slider labels need revision to invite more nuanced allocation.
 
 **Dimensional independence.** Each respondent completes both scenarios. Compute the correlation between Scenario 1 judgment allocations and Scenario 2 judgment allocations within each population. Low correlation supports the paper's claim that the structural dimensions are independent. High correlation suggests they co-vary within populations, which is informative for the architecture but complicates per-dimension analysis.
+
+**Order effects.** Compare EMD computed from respondents who saw Scenario 1 first vs. those who saw Scenario 2 first. If the EMD difference between orderings is substantial, scenario priming is present and the within-subject design needs revision. If negligible, counterbalancing was sufficient.
+
+**Religiosity triangulation (Population C).** Compute EMD between Population C (religious white Americans) and Population A on Scenario 1 judgment sliders. Compare to EMD between Population B and Population A on the same sliders. If Population C clusters with Population B (high EMD from Population A), religiosity is a primary driver of the moral domain boundary signal. If Population C clusters with Population A (low EMD from Population A despite high religiosity), the framework variation operates through cultural infrastructure rather than religiosity. This analysis is the primary purpose of Population C and the key to interpreting the main result.
+
+**"Other" option position note.** The "other" option appears last in the reasoning slider set across all respondents. This could suppress "other" usage if respondents who find a partial fit early allocate there and never reach the final option. The suppression likely affects both populations equally (no bias on the population comparison) but could understate the true rate of reasoning-space gaps. Noted as a known limitation. Randomizing "other" position was considered but rejected for this pilot to avoid UX inconsistency; the fixed position is documented for interpretation.
 
 **Classification function preview.** For each scenario, apply the paper's two-stage classification logic: if judgment EMD falls below a threshold, check reasoning EMD. This produces a preliminary classification (candidate universal, contingent agreement, or cultural contingency) for each dimension with these two populations. The threshold is determined from the natural clustering in the four EMD scores rather than set a priori. This is exploratory, not confirmatory -- two populations cannot validate a classification function designed for multiple populations -- but it previews whether the classification machinery produces interpretable results.
 
@@ -200,9 +221,11 @@ This study collects moral judgments from human participants using shared stimuli
 | Hosting (Vercel + Supabase) | $0 | $20 | Free tiers sufficient. Custom domain optional. |
 | Prolific: Population A (60 respondents) | $480 | $530 | $8/respondent + 33% Prolific fee |
 | Prolific: Population B (60 respondents) | $480 | $530 | $8/respondent + 33% Prolific fee |
+| Prolific: Population C (30 respondents) | $240 | $265 | $8/respondent + 33% Prolific fee |
 | Iteration buffer (second round) | $0 | $700 | Second recruitment of 40-60 respondents if first round reveals instrument problems |
 | Analysis tools | $0 | $0 | Python (scipy, matplotlib, pot library for EMD). All open source. |
-| **Total** | **$960** | **$1,780** |
+| OSF pre-registration | $0 | $0 | Free. Register analysis plan before recruitment. |
+| **Total** | **$1,200** | **$2,045** |
 
 The iteration buffer is the most important budget line. The first run almost always reveals something: a stimulus that confuses respondents, a slider label that channels responses in unexpected ways, a population filter that doesn't produce the expected demographic profile. If the first round works cleanly and produces clear results, the buffer is unspent and total cost is under $1,000.
 
@@ -225,7 +248,7 @@ The iteration buffer is the most important budget line. The first run almost alw
 
 **Weak positive result:** One scenario produces significant judgment EMD, the other does not. This suggests the instrument works for some dimensions but not others, or that the stimulus or slider labels for the non-significant scenario need revision. Still valuable: demonstrates proof of concept on one dimension and identifies where the instrument needs improvement.
 
-**Null result:** Neither scenario produces significant judgment EMD. The populations' slider distributions are indistinguishable. This means either (a) the instrument lacks resolution to detect framework variation that other instruments (MFQ, WVS) detect, (b) online-recruited South Asian immigrants in the US have already converged toward WEIRD moral frameworks, or (c) the stimuli and slider designs do not activate the intended dimensions. Each interpretation has different implications. (a) is the most damaging to the paper's architecture. (b) supports the paper's argument about app-only deployment risk. (c) is fixable with instrument revision.
+**Null result:** Neither scenario produces significant judgment EMD. The populations' slider distributions are indistinguishable. This means either (a) the instrument lacks resolution to detect framework variation that other instruments (MFQ, WVS) detect, (b) online-recruited South Asian immigrants in the US have already converged toward WEIRD moral frameworks, (c) the stimuli and slider designs do not activate the intended dimensions, or (d) the instrument detects distributional differences but not along the assumed dimensions -- the variation exists but the scenarios target the wrong structural axes. Each interpretation has different implications. (a) is the most damaging to the paper's architecture. (b) supports the paper's argument about app-only deployment risk. (c) is fixable with instrument revision. (d) is actually a valuable outcome: it means the instrument has resolution but the dimensional framework needs revision, which is exactly what a pilot is for.
 
 **High "other" diagnostic result:** One or both populations allocate substantial weight to "other" on the reasoning sliders. This signals that the pre-defined reasoning options do not span the moral reasoning space for that population. The paper predicts this as a possible outcome and interprets it as instrument design signal rather than population indifference. Qualitative analysis of the "other" labels reveals what reasoning the designers missed. Redesign the reasoning sliders and retest.
 
@@ -240,6 +263,10 @@ The iteration buffer is the most important budget line. The first run almost alw
 - Whether changed training signal produces changed model behavior (requires ML collaboration)
 
 What it tests is the foundation: does the instrument detect what the paper says it should detect?
+
+**An important distinction:** This experiment tests whether the instrument detects *known* framework differences (sensitivity). The paper's architecture needs the instrument to detect framework differences that *aren't already known* (discovery power). A positive result here demonstrates instrument resolution but not discovery power. The logical next validation step, after this pilot succeeds, is deploying the instrument on a dimension where strong priors about expected distributions do not exist and assessing whether the results are interpretable.
+
+**Pre-registration.** The full analysis plan (EMD implementation, permutation test parameters, success thresholds, secondary analysis specifications) will be pre-registered on OSF (Open Science Framework) before recruitment begins. This commits the analytical decisions in advance and prevents post-hoc adjustment of thresholds to fit the data.
 
 ---
 
@@ -256,6 +283,16 @@ If the results are positive, they provide the first empirical evidence that the 
 **If positive:** Share results with potential academic collaborators. Expand to the full California pilot with four populations, four scenarios, and the balanced incomplete block design described in the paper. Seek grant funding or collaboration partnership for the expanded pilot.
 
 **If null:** Diagnose which interpretation applies (instrument resolution, population convergence, or scenario design). If instrument resolution, consider whether the constrained allocation format needs modification or whether additional collection mechanisms are needed. If population convergence, this is evidence for the paper's app-deployment-risk argument and motivation for facilitator-based recruitment of less-connected populations. If scenario design, revise stimuli and slider labels and retest within the remaining iteration budget.
+
+---
+
+## Design Review Methodology
+
+This experiment design was stress-tested by four AI models (ChatGPT, Gemini, Grok, Claude) via direct text review in March 2026. Each model reviewed the full document independently. The reviews were compared for convergence (issues multiple models identified independently) and unique findings (issues only one model caught). Convergent findings were treated as high-priority revisions; unique findings were evaluated individually on merit.
+
+Key convergent findings (all four models): religiosity handling needed revision; Population B selection was the strongest methodological feature; EMD + permutation approach was confirmed as correct; overall verdict was "run it with refinements." Key unique findings incorporated: Scenario 1 stimulus cued the WEIRD answer (Claude), religiosity triangulation cell resolves the confound (Claude), pre-register on OSF (Grok), manipulation check item (Grok), Scenario 2 label ambiguity (ChatGPT), slider mechanics specification (Claude).
+
+The multi-model review process itself produced a finding relevant to the project's thesis: each model found issues the others missed, and no single model found everything. The combined assessment was stronger than any individual review. This is the same convergence-from-independent-sources logic the paper argues for in moral frameworks.
 
 ---
 
