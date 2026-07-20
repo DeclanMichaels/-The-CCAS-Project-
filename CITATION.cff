@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Cross-Cultural Alignment Signal"
+authors:
+  - family-names: Michaels
+    given-names: Declan
+version: "1.0.0"
+date-released: "2026-03-16"
+url: "https://github.com/DeclanMichaels/-The-CCAS-Project-"
+repository-code: "https://github.com/DeclanMichaels/-The-CCAS-Project-"
+license: Apache-2.0
+# doi: 10.5281/zenodo.XXXXXXX   # add after minting the Zenodo DOI
