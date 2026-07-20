@@ -6,7 +6,7 @@ authors:
     given-names: Declan
 version: "1.0.0"
 date-released: "2026-03-16"
-url: "https://github.com/DeclanMichaels/-The-CCAS-Project-"
-repository-code: "https://github.com/DeclanMichaels/-The-CCAS-Project-"
+url: "https://github.com/DeclanMichaels/the-ccas-project"
+repository-code: "https://github.com/DeclanMichaels/the-ccas-project"
 license: Apache-2.0
 # doi: 10.5281/zenodo.XXXXXXX   # add after minting the Zenodo DOI
